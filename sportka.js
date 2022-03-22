@@ -10,7 +10,7 @@
 let osudi = [];
 
 // vytvořím osudí
-for (let i=1; i < 49; i++) {
+for (let i=1; i<50; i++) {
     osudi.push(i);
 }
 
