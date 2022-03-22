@@ -27,3 +27,9 @@ for (let i=0; i<7; i++) {
     console.log(osudi)
 }
 
+// výpis do HTML
+let vyherniCisla = document.querySelector("#vyherni-cisla");
+
+for (let i=0; i < tazenaCisla.length; i++) {
+    vyherniCisla.innerHTML += "<span class='cislo'>" + tazenaCisla[i] + "</span>";
+}
